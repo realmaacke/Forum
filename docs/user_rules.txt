@@ -1,0 +1,22 @@
+[SQL-TABLE]
+{
+    förnamn
+    efternamn
+    användarnamn
+    lösenord
+    e-mail
+    användare skapad den ?
+    location
+}
+
+[Account-Rules]
+{
+    Username: 3 < Username > 24
+    Password: 6 < Password > 24
+    E-mail: "@" <- Required, && Valid Email
+
+    FirstName: 3 < FirstName > 30
+    LastName: 3 < LastName > 30
+
+    
+}
