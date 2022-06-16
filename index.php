@@ -13,7 +13,7 @@ include('autoload.php')
 
 <?php 
 
-
+ $authenticate = User::AuthenticateUser("asd", "asd");
 
 
 ?>
